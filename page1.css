@@ -1,0 +1,295 @@
+/* top */
+body{
+  /* 페이지 기본 여백 없애는 법 : body 에 마진 패딩 0주기 */
+  /* position: relative; */
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+.main{
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* width: 1300px; */
+  /* height: 10000px; */
+}
+.top-title{
+  width: 100%;
+  /* height: 100%; */
+  /* height: 45px; */
+  /* sticky 속성은 부모기준으로 움직임 (부모 크기 설정되있어야함) */
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.bottom-title{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.button-box{
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-left{
+  /* width: 140px; */
+  height: 24px;
+  margin-left: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  background-color: white;
+  border: 0;
+}
+.button-left:hover{
+  background-color:rgba(55, 53, 47, 0.08);
+}
+.right{
+  height: 24px;
+  width: 61px;
+  cursor: pointer;
+  background-color: white;
+  border: 0;
+}
+.button-right{
+  margin-right: 10px;
+  display: flex;
+}
+.right:hover{
+  background-color:rgba(55, 53, 47, 0.08);
+}
+
+/* second */
+.main-img{
+  width: 100%;
+  /* height: 280px; */
+  height: var(--page-cover-height);
+  object-fit: cover;
+}
+.second-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.second-two{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 708px;
+  /* height: 103px; */
+  margin: 40px 96px 0;
+}
+.second-text{
+  /* padding: 0 0 0 0; */
+  color: rgb(55, 53, 47);
+  width: 708px;
+  height: 54px;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  padding: 3px 2px;
+
+
+}
+
+/* third */
+.third{
+  width: 100%;
+  height: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom-img01{
+  width: 700px;
+  height: auto;
+  /* display: flex */
+}
+.third-text01, .third-text02{ 
+  width: 700px;
+  height: 220px;
+  /* margin: 0 0 0 -340px; */
+}
+.text-two{
+  width: 700px;
+  height: 100px;
+  padding: 0 14px;
+  border-left: 3px solid;
+}
+.explain-one{
+  width: 690px;
+  height: 160px;
+  padding: 3px 0 0 0;
+}
+.weight{
+  font-weight: 600;
+  background: rgb(251, 243, 219);
+}
+.text-three{
+  display: flex;
+  width: 700px;
+  height: 30px;
+  margin: 10px 0 0 0;
+}
+.triangle{
+  margin-right: 10px;
+  background-color: white;
+  border: 0;
+  width: 13px;
+  height: 13px;
+}
+.triangle:hover{
+  background-color:rgba(55, 53, 47, 0.08);
+  cursor: pointer;
+}
+.text-color{
+  font-weight: 600;
+  color: rgb(155,154,151);
+  border-bottom: 0.05em solid;
+}
+.text-one{
+  position: relative;
+  /* width: 100%; */
+  width: 700px;
+  height: 20px;
+  font-size: 1.5em;
+}
+
+.third-text03{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+.notion-icon{
+  width: 20px;
+  height: 20px;
+}
+.text-back{
+  display: flex;
+  background-color: rgb(241, 241, 239);
+  border-radius: 5px;
+  padding: 16px 16px 16px 12px;
+  margin: 5px;
+}
+.third-title{
+  width: 700px;
+  height: 5px;
+  font-size: 1.5em;
+  padding: 3px 2px;
+  font-weight: 700;
+}
+.icon-box{
+  width: 24px;
+  height: 96px;
+}
+.back-text{
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 2px;
+}
+
+.youtube-box{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.youtube-line{
+  width:350px;
+  display: flex;
+  flex-direction: row;
+}
+.you{
+  height: 280px;
+  margin-right: 20px;
+  color: rgba(55, 53, 47, 0.6);
+  font-size: 14px;
+}
+.img-text{
+  width: 700px;
+  margin: 15px 0 0 0;
+  display: flex;
+}
+.img-first{
+  width: 350px;
+  height: 250px;
+}
+.text-first{
+  width: 350px;
+  /* height: 250px; */
+}
+.img-text-title{
+  border-bottom: 1px solid;
+  margin: 0 0 10px 0;
+}
+.text-box{
+  width: 350px;
+  height: 250px;
+}
+
+/* 인풋태그로 만들기 */
+/* .hide-text{
+  width: 700px;
+}
+input:checked{
+  display: block;
+}
+.tri{
+  width: 11px;
+  height: 11px;
+  display: block;
+  cursor: pointer;
+  background-color: red;
+} */
+
+.moon{
+  text-decoration-line: none;
+  display: flex;
+  width: 700px;
+  height: 100px;
+  border: 1px solid rgba(55,53,47,.16);
+}
+.moon-left{
+  width: 450px;
+  height: 100px;
+  background: rgba(55, 53, 47, 0.08);
+}
+.moon-right{
+  width: 250px;
+  height: 100px;
+  background-color: purple;
+  object-fit: cover;
+}
+.kakao{
+  display: flex;
+}
+
+.bottom-fix{
+  border-radius: 10px;
+  width: 55%;
+  height: 48px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 16px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  background-color: rgb(84, 84, 226);
+  color: white;
+}
+.book-mark{
+  flex: 4 1 180px;
+  padding: 12px 14px 14px;
+  overflow: hidden;
+  text-align: left;
+}
