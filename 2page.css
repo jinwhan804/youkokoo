@@ -1,0 +1,347 @@
+.main-body{
+    display: block;
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+
+.head-line{
+    margin-top: 150px;
+}
+
+.mainlogo{
+    font-size: 80px;    
+}
+
+h1{
+    font-size: 40px;
+}
+
+.sub-title{
+    background-color: rgb(255, 243, 228);
+}
+
+h2{
+    font-size: 30px;
+}
+
+.under-sub{
+    background-color: rgb(255, 239, 239);
+}
+
+.under-bar{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.ex-script .job-name{
+    background-color: rgb(247, 243, 255);
+}
+
+.ex-script h4{
+    font-size: 18px;
+}
+
+.ex-script img{
+    max-width: 100%;
+}
+
+.ex-script p{
+    font-size: 14px;
+    color: rgb(192, 192, 192);
+}
+
+.question-area li{
+    margin: 10px;
+}
+
+.red-span{
+    color: red;
+    background-color: beige;
+}
+
+.point-span{
+    font-weight: 650;
+    background-color: rgb(247, 243, 255);
+}
+
+.question-area li{
+    line-height: 25px;
+    
+}
+
+.goals{
+    height: 70px;
+    background-color: rgb(247, 243, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.goals span{
+    align-items: center;
+    justify-content: center;
+}
+
+.gyungil-goals{    
+    justify-content: center;
+    line-height: 25px;
+    height: 50px;
+    margin: 10px;
+}
+
+.example{
+    position: relative;
+    display: flex;     
+    max-width: 700px;
+    height: 110px;
+    border: 1px solid rgb(219, 219, 219); 
+}
+
+.example1{     
+    background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fi.ytimg.com%2Fvi%2FsZJTUvx_tAM%2Fhqdefault.jpg&blockId=f5c61e3b-04c0-42ab-9612-2b8fc2a309a7&width=512);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 101%;
+}
+
+.example2{     
+    background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ6jYF1C0jQI%2Fhqdefault.jpg&blockId=21b66b8b-783b-4ad8-a2ce-a3e34f18cec7&width=512);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 101%;
+}
+
+.example3{     
+    background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fi.ytimg.com%2Fvi%2FuOObJJLPiP8%2Fhqdefault.jpg&blockId=746bb604-2291-4376-9333-5b5ebc4772a3&width=512);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 101%;
+}
+
+.example4{    
+    background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fi.ytimg.com%2Fvi%2FCPEDwnHaPQo%2Fhqdefault.jpg&blockId=ab3a7607-4e7c-4d7f-a03d-7b8573fcd2c5&width=512);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 101%;
+}
+
+.example:hover a{
+    background-color: rgb(219, 219, 219);
+}
+
+.example a{
+    text-decoration: none;
+    color: black;
+}
+
+.example-script{
+    position: absolute;
+    max-width: 60%;
+    padding: 15px;
+}
+
+.example-title{
+    font-size: 14px;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.example-info{
+    font-size: 12px;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: gray;
+}
+
+.example-info span{
+    display: none;
+}
+
+.example-youtube{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.proposal-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-box{
+    width: 20px;
+    min-height: 70px;
+    background-color: blueviolet;
+    padding: 5px 0 5px 0;
+}
+
+.proposal{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.curriculum img{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.to-blockchain div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    height: 25px;
+}
+
+.to-blockchain span{
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.to-blockchain div:hover a{
+    background-color: rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.to-blockchain a{
+    color: black; 
+    text-decoration: none;   
+}
+
+.coop-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+.coop-logo a{
+    color: black;    
+    text-decoration: none;
+}
+
+.coop-logo span{
+    height: 15px;
+    margin-right: 2px;
+}
+
+.coop-logo img{
+    height: 10px;
+}
+
+.fixed-bottom a{
+    color: white;    
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(0, 95, 8);
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    position: fixed;    
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.page-title{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.page-title a{
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-title a span{
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.fixed-top{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;    
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.btn-group{
+    display: flex;
+    margin-right: 20px;
+    align-items: baseline;
+}
+
+.btn-group input{
+    display: none;
+}
+
+.search-btn input+label{
+    padding: 5px 10px 5px 30px;
+    cursor: pointer;
+}
+
+.copy-btn input+label{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-btn:hover label{    
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+}
+
+.search-btn{
+    position: relative;
+    display: flex;
+    width: 80px;
+    font-size: 15px;
+}
+
+.search-btn img{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 15px;    
+}
+
+.btn-group .copy-btn a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;    
+}
+
+.copy-btn:hover label{    
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+}
